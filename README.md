@@ -40,3 +40,8 @@ This is a personal website of Abhy Nadar using [Gatsby](https://www.gatsbyjs.org
 
     Your production site is now running at `http://localhost:9000`
 
+5. **References**
+    
+    https://styled-components.com/docs/basics#getting-started
+
+    
