@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `ARCanvas`,
+    title: `ANCanvas`,
     description: `Abhy's Personal Website, to share my thoughts, blogs, learnings and profile.`,
     author: `Abhy Nadar`
   },

@@ -1,9 +1,9 @@
 ---
 category: 'experiences'
-company: 'Coming Soon!!!'
+company: 'Director - Engineering'
 position: ''
 startDate: 'Jan 2021'
 endDate: 'Present'
 ---
 
-Coming Soon!!!
+Quovantis Technologies
