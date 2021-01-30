@@ -35,7 +35,6 @@ const Highlights = () => {
   const sectionTitle = markdownRemark.frontmatter;
   const education = allMarkdownRemark.edges[0];
   const {
-    id,
     items,
   } = education.node.frontmatter;
 
@@ -48,7 +47,7 @@ const Highlights = () => {
 
         return (
           <Bulletline
-            key={id}
+            key={item}
             content={<FormatHtml content={item} />}
           />
         );

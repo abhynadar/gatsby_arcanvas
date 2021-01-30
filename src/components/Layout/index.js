@@ -7,6 +7,7 @@ import Header from 'components/Header';
 import Footer from 'components/Footer';
 
 import 'assets/styles/global.css';
+import 'assets/styles/post.css';
 import GlobalStyles from 'assets/styles/globalStyles';
 import * as Styled from './styles';
 

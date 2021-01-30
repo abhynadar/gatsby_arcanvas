@@ -15,6 +15,7 @@ const BlogPost = ({ data, pageContext }) => {
   const { previous, next } = pageContext;
 
   return (
+
     <Layout>
       <SEO title={post.frontmatter.title} />
       <Container section>

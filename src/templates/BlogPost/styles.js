@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
 export const Title = styled.h3`
-  ${tw`font-semibold mb-4`};
+  ${tw`font-semibold mb-4 text-xl`};
 `;
 
 export const Image = styled.figure`
