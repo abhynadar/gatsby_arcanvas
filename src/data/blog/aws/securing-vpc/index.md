@@ -3,7 +3,7 @@ category: 'blog'
 cover: './cover.jpg'
 title: 'Securing VPC'
 description: 'Coming Soon!!!'
-date: '2021-01-30'
+date: '2021-02-02'
 tags: ['AWS', 'VPC', 'Security']
 published: true
 ---
