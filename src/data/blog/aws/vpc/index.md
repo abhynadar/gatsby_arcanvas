@@ -14,7 +14,7 @@ _As you enter into the world of AWS one of the first things that get created for
 
 ## VPC - Virtual Private Cloud 
 
-VPC is a small portion of the AWS Cloud that is allocated to you account. It is a virtual network into which you launch your AWS resources like EC2 (Elastic Cloud Compute). This virtual network closely resembles a traditional network that you would have operated in your organization. It is a networking layer for your AWS resources like EC2 Instances. This helps logically isolate your AWS resources from other virtual networks in the AWS Cloud.  
+VPC is a small portion of the AWS Cloud that is allocated to your account. It is a virtual network into which you launch your AWS resources like EC2 (Elastic Cloud Compute). This virtual network closely resembles a traditional network that you would have operated in your organization. It is a networking layer for your AWS resources like EC2 Instances. This helps logically isolate your AWS resources from other virtual networks in the AWS Cloud.  
 
 ### VPC and the AWS Regions
 
