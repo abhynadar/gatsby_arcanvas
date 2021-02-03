@@ -15,8 +15,6 @@ const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark;
   const { previous, next, slug } = pageContext;
 
-  console.log('slug - ', slug);
-
   const disqusConfig = {
     shortname: 'ancanvas', // process.env.GATSBY_DISQUS_NAME,
     config: { identifier: slug, title: post.frontmatter.title },
