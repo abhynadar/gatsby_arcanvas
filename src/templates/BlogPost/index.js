@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Link from 'gatsby-link';
-import { DiscussionEmbed } from "disqus-react"
+// import { DiscussionEmbed } from "disqus-react"
 
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
@@ -15,10 +15,10 @@ const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark;
   const { previous, next, slug } = pageContext;
 
-  const disqusConfig = {
-    shortname: 'ancanvas', // process.env.GATSBY_DISQUS_NAME,
-    config: { identifier: slug, title: post.frontmatter.title },
-  }
+  // const disqusConfig = {
+  //   shortname: 'ancanvas', // process.env.GATSBY_DISQUS_NAME,
+  //   config: { identifier: slug, title: post.frontmatter.title },
+  // }
 
   return (
 
@@ -43,8 +43,8 @@ const BlogPost = ({ data, pageContext }) => {
             )}
           </span>
         </Styled.Links>
-        <DiscussionEmbed {...disqusConfig} />
       </Container>
+      {/* <DiscussionEmbed {...disqusConfig} /> */}
     </Layout>
   );
 };
