@@ -42,7 +42,7 @@ It is a device attached with your VPC. It enables communication between resource
 ### CIDR Block
 CIDR stands for Classless Inter-Domain Routing. It is an internet protocol address allocation and route aggregation methodology. In simple terms, it is a range of IP addresses that is used for assigning IP address to a node inside a subnet. 
 
-For example, a CIDR value of 10.0.1.0/24 means that 10.0.1 is the Network ID, .0 is the Host ID and 24 is Network Mask. With the example of 10.0.1.0/24 we can have a total of 255 hosts. So we get the range for IP address inside the subnet as - 10.0.1.0 to 10.0.1.254
+For example, a CIDR value of 10.0.1.0/24 means that 10.0.1 is the Network ID, .0 is the Host ID and 24 is Network Mask. With the example of 10.0.1.0/24 we can have a total of 255 hosts. So we get the range for IP address inside the subnet as - 10.0.1.0 to 10.0.1.254. 
  
 
 ### Things to remember 
@@ -60,5 +60,6 @@ For example, a CIDR value of 10.0.1.0/24 means that 10.0.1 is the Network ID, .0
 - You can detach an internet gateway from VPC and delete it.
 - You cannot detach an internet gateway if your VPC has resources with associated public IP Address or Elastic IP. 
 - A CIDR block helps us identify the Network ID and also tells us how many Hosts we can have in that network.
+- Largest address space you can allocate to a VPC is with CIDR block ending with /16, this will be 65k IP Addresses.
 - Every server inside a subnet will have same Network ID but different Host ID.
 
