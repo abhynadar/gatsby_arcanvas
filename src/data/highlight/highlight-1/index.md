@@ -1,6 +1,7 @@
 ---
 category: 'highlight'
 items: [
+'AWS Certified Practioner and AWS Certified Architect Associate',
 'Hands on software architect with over 20 years of experience in the IT industry implementing software solutions.', 
 '2.5 years experience working in Fairfax, VA, USA at 3Pillar Global on L1B Visa.', 
 'Expertise in building software solutions in HealthTech, EduTech and Insurance Domain.', 

@@ -21,6 +21,13 @@ module.exports = {
         path: `${__dirname}/src/data`
       }
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/questionbank/aws/`
+      }
+    },
     {
       resolve: 'gatsby-transformer-remark',
       options: {

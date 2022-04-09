@@ -1,0 +1,52 @@
+[
+    {
+        "qno": 1,
+        "qtype": "single",
+        "qtext": "2 Why would you want to change your original AWS architecture?",
+        "qanswers": [
+            {
+                "ano": 1,
+                "atext": "Your team size has increased"
+            },
+            {
+                "ano": 2,
+                "atext": "AWS released a new service"
+            },
+            {
+                "ano": 3,
+                "atext": "Your end customers have increased"
+            },
+            {
+                "ano": 4,
+                "atext": "Your product has become popular"
+            }
+        ],
+        "qresult": 2,
+        "qexplanation": "When AWS releases a new service you might want to reconsider your original architecture based on the cost benefits, scalability benefits or availability benefits from using this new AWS service"
+    },
+    {
+        "qno": 2,
+        "qtype": "single",
+        "qtext": "2 Which of the following is not a general design principle for architecting solutions that provide performance efficiency on AWS?",
+        "qanswers": [
+            {
+                "ano": 1,
+                "atext": "Experiment often"
+            },
+            {
+                "ano": 2,
+                "atext": "Go Global"
+            },
+            {
+                "ano": 3,
+                "atext": "Use the right tool for the task"
+            },
+            {
+                "ano": 4,
+                "atext": "Use AWS Lambda"
+            }
+        ],
+        "qresult": 4,
+        "qexplanation": "Use AWS Lambda is not a general design principle for architecting for performance on AWS. General design principles for architecting for performance on AWS are - Go Global, Use the right tool for the task, experiment often and use new technologies."
+    }
+]
