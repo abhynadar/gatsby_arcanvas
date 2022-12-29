@@ -44,3 +44,5 @@ This is a personal website of Abhy Nadar using [Gatsby](https://www.gatsbyjs.org
     
     Stylying using Styled Component - https://styled-components.com/docs/basics#getting-started
     How to associate google domain to netlify site - https://dev.to/lost_semicolon/netlify-and-google-domains-hm3
+
+making minor change here
